@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Info grabber</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Form validation practice</h1>
+    <form novalidate>
+      <label for="email">You email</label>
+      <input type="email" placeholder="john@example.com" id="email" name="email"></input>
+      <label for="country">Your country</label>
+      <input type="text" min="4" placeholder="Uganda" id="country" name="country"></input>
+      <label for="postalCode">Your postal code</label>
+      <input type="number" min="5" placeholder="ex: 60890" id="postalCode" name="postalCode"></input>
+      <label for="pwd">Password</label>
+      <input type="password" min="8" placeholder="Your password" id="pwd" name="pwd"></input>
+      <label for="pwd2">Confirm password</label>
+      <input type="password" min="8" placeholder="Confirm your password" id="pwd2" name="pwd2"></input>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
