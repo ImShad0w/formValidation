@@ -58,3 +58,11 @@ input, label{
   display: flex;
   flex-direction: column;
 }
+
+input:invalid{
+  border: solid red;
+}
+
+input:valid{
+  border: solid green;
+}
